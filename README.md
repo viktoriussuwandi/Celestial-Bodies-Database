@@ -53,4 +53,8 @@ If you are saving your progress on [freeCodeCamp.org](https://www.freecodecamp.o
 24. Each `foreign key` column should have the same name as the `column` it is referencing.
 
 ## Result
-![complete](complete.jpg)
+### Testing
+![Testing](testing.jpg)
+
+### Submission
+![Submission](submission.jpg)
