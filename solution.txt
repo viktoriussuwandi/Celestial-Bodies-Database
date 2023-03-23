@@ -1,9 +1,11 @@
 ------------------------------------------------------------
 1.Create Database and connect to it
 ------------------------------------------------------------
+psql --username=freecodecamp --dbname=postgres;
+
 CREATE DATABASE universe;
 
-\connect universe
+\c universe
 
 ------------------------------------------------------------
 2.Create tables
