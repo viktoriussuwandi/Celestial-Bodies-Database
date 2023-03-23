@@ -1,5 +1,10 @@
 # Celestial Bodies Database
-#### Open [`file solution.txt`](solution.txt) To follow my terminal command.
+#### Open [`file solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
+    1. Create database and connect to it.
+    2. Create required tables.
+    3. Fill the required tables with data.
+    4. Primary Key and Foreign Key assignment.
+    5. Compact queries into universe.sql file.
 
 #### Solution can be found on : https://replit.com/@ViktoriusSuwand/Celestial-Bodies-Database
 
