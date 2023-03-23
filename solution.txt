@@ -11,60 +11,60 @@ CREATE DATABASE universe;
 2. Create tables as required conditions
 ------------------------------------------------------------
 CREATE TABLE galaxy (
-    galaxy_id serial NOT NULL,
-    star_id integer  NOT NULL
-    name character varying(20) UNIQUE NOT NULL,
-    area integer,
-    volume integer,
-    age numeric,
-    material text,
-    has_life boolean,
-    has_water boolean,
+    galaxy_id SERIAL NOT NULL,
+    star_id INTEGER  NOT NULL
+    name VARCHAR(20) UNIQUE NOT NULL,
+    area INTEGER,
+    volume INTEGER,
+    age NUMERIC,
+    material TEXT,
+    has_life BOOLEAN,
+    has_water BOOLEAN,
 );
 
 CREATE TABLE star (
-    star_id serial    NOT NULL,
-    galaxy_id integer NOT NULL,
-    planet_id integer NOT NULL
-    name character varying(20) UNIQUE NOT NULL,
-    area integer,
-    volume integer,
-    age numeric,
-    material text,
-    has_life boolean,
-    has_water boolean,
+    star_id SERIAL NOT NULL,
+    galaxy_id INTEGER NOT NULL,
+    planet_id INTEGER NOT NULL
+    name VARCHAR(20) UNIQUE NOT NULL,
+    area INTEGER,
+    volume INTEGER,
+    age NUMERIC,
+    material TEXT,
+    has_life BOOLEAN,
+    has_water BOOLEAN,
 );
 
 CREATE TABLE planet (
-    planet_id serial NOT NULL,
-    star_id integer  NOT NULL,
-    moon_id integer  NOT NULL,
-    name character varying(20) UNIQUE NOT NULL,
-    area integer,
-    volume integer,
-    age numeric,
-    material text,
-    has_life boolean,
-    has_water boolean
+    planet_id SERIAL NOT NULL,
+    star_id INTEGER  NOT NULL,
+    moon_id INTEGER  NOT NULL,
+    name VARCHAR(20) UNIQUE NOT NULL,
+    area INTEGER,
+    volume INTEGER,
+    age NUMERIC,
+    material TEXT,
+    has_life BOOLEAN,
+    has_water BOOLEAN
 );
 
 CREATE TABLE moon (
-    moon_id serial    NOT NULL,
-    planet_id integer NOT NULL,
-    name character varying(20) UNIQUE NOT NULL,
-    area integer,
-    volume integer,
-    age numeric,
-    material text,
-    has_life boolean,
-    has_water boolean,
+    moon_id SERIAL NOT NULL,
+    planet_id INTEGER NOT NULL,
+    name VARCHAR(20) UNIQUE NOT NULL,
+    area INTEGER,
+    volume INTEGER,
+    age NUMERIC,
+    material TEXT,
+    has_life BOOLEAN,
+    has_water BOOLEAN,
 );
 
 CREATE TABLE more_info (
-    more_info_id serial NOT NULL,
-    object_id integer,
-    name character UNIQUE varying(20) NOT NULL,
-    description text
+    more_info_id SERIAL NOT NULL,
+    object_id INTEGER,
+    name VARCHAR(20) UNIQUE NOT NULL,
+    description TEXT
 );
 
 ------------------------------------------------------------
