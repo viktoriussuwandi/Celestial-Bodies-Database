@@ -21,7 +21,7 @@ If you leave your virtual machine, your database may not be saved. You can make 
 
 If you are saving your progress on [freeCodeCamp.org](https://www.freecodecamp.org/), after getting all the tests to pass, follow the instructions above to save a dump of your database. Save the `universe.sql` file in a public repository and submit the URL to it on [freeCodeCamp.org](https://www.freecodecamp.org/).
 
-### Tasks & Testing
+### CodeRoad
 1. You should create a database named `universe`.
 2. Be sure to connect to your database with `\c universe`. Then, you should add tables named `galaxy`, `star`, `planet`, and `moon`.
 3. Each table should have a `primary key`.
