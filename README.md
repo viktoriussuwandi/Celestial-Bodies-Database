@@ -1,5 +1,5 @@
 # Celestial Bodies Database
-#### Open [`file solution.txt`](solution.txt) To follow my terminal script.
+#### Open [`file solution.txt`](solution.txt) To follow my terminal command.
 
 #### Solution can be found on : https://replit.com/@ViktoriusSuwand/Celestial-Bodies-Database
 
