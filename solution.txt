@@ -146,6 +146,6 @@ ALTER TABLE planet ADD FOREIGN KEY (moon_id)   REFERENCES moon   (moon_id)
 ALTER TABLE moon   ADD FOREIGN KEY (planet_id) REFERENCES planet (planet_id)
 
 ------------------------------------------------------------
-5. Compact queries into universe.sql file
+5. Compact sql db queries into universe.sql file
 ------------------------------------------------------------
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
