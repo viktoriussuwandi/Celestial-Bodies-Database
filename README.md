@@ -6,9 +6,9 @@
     4. Primary Key and Foreign Key assignment.
     5. Compact queries into universe.sql file.
 
-#### Solution can be found on : https://replit.com/@ViktoriusSuwand/Celestial-Bodies-Database
+#### Solution can be found on : [https://replit.com/@ViktoriusSuwand/Celestial-Bodies-Database](https://replit.com/@ViktoriusSuwand/Celestial-Bodies-Database)
 
-#### Documentation can be found on : https://github.com/viktoriussuwandi/Celestial-Bodies-Database
+#### Documentation can be found on :[https://github.com/viktoriussuwandi/Celestial-Bodies-Database](https://github.com/viktoriussuwandi/Celestial-Bodies-Database) 
 
 This is the result to complete the Celestial Bodies Database project. 
 Instructions for building this project can be found at 
