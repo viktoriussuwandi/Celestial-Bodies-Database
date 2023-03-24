@@ -1,5 +1,5 @@
 # Celestial Bodies Database
-#### Open [`file solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
+#### Open [file `solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
     1. Create database and connect to it.
     2. Create tables as required conditions.
     3. Fill the tables as required data conditions.
@@ -53,6 +53,7 @@ If you are saving your progress on [freeCodeCamp.org](https://www.freecodecamp.o
 24. Each `foreign key` column should have the same name as the `column` it is referencing.
 
 ## Result
+
 ### Testing
 ![Testing](testing.jpg)
 
