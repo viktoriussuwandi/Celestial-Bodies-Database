@@ -12,7 +12,7 @@ CREATE DATABASE universe;
 ------------------------------------------------------------
 CREATE TABLE galaxy (
     galaxy_id SERIAL NOT NULL,
-    star_id INTEGER  NOT NULL
+    star_id INTEGER  NOT NULL,
     name VARCHAR(20) UNIQUE NOT NULL,
     area INTEGER,
     volume INTEGER,
@@ -25,7 +25,7 @@ CREATE TABLE galaxy (
 CREATE TABLE star (
     star_id SERIAL NOT NULL,
     galaxy_id INTEGER NOT NULL,
-    planet_id INTEGER NOT NULL
+    planet_id INTEGER NOT NULL,
     name VARCHAR(20) UNIQUE NOT NULL,
     area INTEGER,
     volume INTEGER,
